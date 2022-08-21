@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import './nav.css'
 import {FaHome} from 'react-icons/fa'
+import {FaUserAlt} from 'react-icons/fa'
 import {MdWork} from 'react-icons/md'
 import {AiFillMessage} from 'react-icons/ai'
 
@@ -11,12 +12,17 @@ const Nav = () => {
     <nav>
       <a href="#home"
         onClick={() => setActiveNav('#home')}
-        className={activeNav === '#' ? 'active' : ''}>
+        className={activeNav === '#home' ? 'active' : ''}>
         <FaHome />
       </a>
-      <a href="#experience"
+      <a href="#about"
         onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}>
+        <FaUserAlt />
+      </a>
+      <a href="#experience"
+        onClick={() => setActiveNav('#experience')}
+        className={activeNav === '#experience' ? 'active' : ''}>
         <MdWork />
       </a>
       <a href="#contact"

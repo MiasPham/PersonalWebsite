@@ -3,7 +3,9 @@ import "./about.css";
 
 const About = () => {
   return (
-    <section>about</section>
+    <section id='about'>
+      About
+    </section>
   )
 }
 
