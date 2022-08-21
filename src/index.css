@@ -16,6 +16,7 @@
   --color-primary: #CC7369;
   --color-primary-variant: #C26963;
   --color-black: #151226;
+  --color-white: #FFF;
   --color-light: rgba(255, 255, 255, 0.6);
 
   --transition: all 400ms ease;
@@ -52,6 +53,7 @@ h1 {
 }
 
 section {
+  height: 100vh;
   margin-top: 8rem;
 }
 

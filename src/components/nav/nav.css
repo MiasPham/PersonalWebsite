@@ -1,0 +1,25 @@
+nav {
+  background: rgba(255, 255, 255, 0.3);
+  width: max-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem 1rem;
+  /* position: fixed; CAN'T MAKE THIS INTO FIXED POSITION*/
+  display: flex;
+  gap: 1rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 8rem;
+}
+
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-whiite);
+}

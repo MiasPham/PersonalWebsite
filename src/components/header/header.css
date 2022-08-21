@@ -31,8 +31,9 @@ header {
 .profile {
   width: 27rem;
   height: 60rem;
-  position: absolute;
-  left: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1rem;
 }
 
@@ -44,4 +45,21 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+/* Medium Devices */
+@media screen and (max-width: 1024px) {
+  header{
+    height: 60vh;
+  }
+}
+/* Small Devices */
+@media screen and (max-width: 1024px) {
+  header{
+    height: 100vh;
+  }
+
+  .scroll__down{
+    display: none;
+  }
 }
