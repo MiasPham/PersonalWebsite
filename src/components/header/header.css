@@ -36,6 +36,9 @@ header {
   margin-right: auto;
   margin-top: 1rem;
 }
+.profile img {
+  border-radius: 10%;
+}
 
 /* Scroll Down */
 .scroll__down {
@@ -52,9 +55,13 @@ header {
   header{
     height: 60vh;
   }
+
+  .profile{
+    width: 60%;
+  }
 }
 /* Small Devices */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   header{
     height: 100vh;
   }
