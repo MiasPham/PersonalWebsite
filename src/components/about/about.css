@@ -51,7 +51,7 @@
 /* Small Devices */
 @media screen and (max-width: 600px) {
   .about__me{
-    width: 65%;
+    width: 60%;
     margin: 0 auto 3rem;
   }
 

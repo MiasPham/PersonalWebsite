@@ -9,8 +9,8 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__content">
-          <h3>Scandanavian Software Park</h3>
-          <h4 className='text-light'>Position: Intern</h4>
+          <h3>Title</h3>
+          <h4 className='text-light'>Position:</h4>
             <article className='experience__details'>
               <ul>
                 <li>Description 1</li>
@@ -22,8 +22,8 @@ const Experience = () => {
         </div>
 
         <div className="experience__content">
-          <h3>Dawg Daze Radio</h3>
-          <h4 className='text-light'>Position: Technology Manager</h4>
+          <h3>Title</h3>
+          <h4 className='text-light'>Position:</h4>
           <article className='experience__details'>
             <ul>
               <li>Description 1</li>
