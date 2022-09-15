@@ -1,7 +1,7 @@
 header {
   height: 100vh;
   padding-top: 10rem;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .main__container {
@@ -17,7 +17,7 @@ header {
   padding-left: 20%;
 }
 
-h1 span {
+h1 span, p b {
   color: var(--color-primary);
 }
 
@@ -44,11 +44,12 @@ h2 {
 @media screen and (max-width: 1024px) {
   header {
     height: 70vh;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
   }
 
   .header__container {
-    margin-left: 10%;
+    padding: 0;
+    margin: auto;
   }
 
   .main__container {
@@ -74,32 +75,35 @@ h2 {
 /* Small Devices */
 @media screen and (max-width: 600px) {
   header {
-    height: 60vh;
+    height: 55vh;
   }
 
   .header__container {
-    margin-left: 6%;
+    padding: 0;
+    margin: auto;
   }
   .main__container h3, h2 {
-    font-size: 12px;
+    font-size: 1rem;
   }
 
   .main__container h1 {
-    font-size: 18px;
+    font-size: 1.5rem;
   }
 
   .main__container h2 {
     padding-bottom: 0.5rem;
   }
 
-  .main__container p {
+  /* .main__container p {
     font-size: 10px;
-  }
+  } */
 
   .cta {
     margin-top: 1rem;
   }
-  .btn {
-    width: fit-content;
+
+  .profile {
+    display: none;
   }
+
 }

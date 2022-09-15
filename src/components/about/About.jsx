@@ -17,6 +17,8 @@ const About = () => {
 
       <div className="about__content">
       <p>
+        I'm Mia Pham, a Junior pursuing Informatics at the University of Washington. My passion lies
+        in coding and design. Front-end engineering is where the two meet.
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit nisi quis metus
         euismod euismod. Donec sagittis leo nec sapien feugiat sollicitudin. Nunc condimentum
         dignissim leo, sed maximus sem ullamcorper non. Maecenas eu ullamcorper ipsum.
