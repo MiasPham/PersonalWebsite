@@ -33,6 +33,10 @@
   margin-bottom: 1rem;
 }
 
+.experience__container b {
+  color: var(--color-white);
+}
+
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
   .experience__container {
