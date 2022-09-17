@@ -14,7 +14,7 @@ const Experience = () => {
             <article className='experience__details'>
               <ul>
               <li>Developed bookings and time schedule for different universities</li>
-              <li>Update websites based on client requirements</li>
+              <li>Updated websites based on client requirements</li>
               <li>Optimized websites by testing out codes</li>
               </ul>
               <p><b>Languages:</b> HTML, CSS, Javascript, React</p>
