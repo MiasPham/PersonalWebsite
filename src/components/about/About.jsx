@@ -18,11 +18,12 @@ const About = () => {
       <div className="about__content">
       <p>
         I'm Mia Pham, a Junior pursuing Informatics at the University of Washington. My passion lies
-        in coding and design. Front-end engineering is where the two meet.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit nisi quis metus
-        euismod euismod. Donec sagittis leo nec sapien feugiat sollicitudin. Nunc condimentum
-        dignissim leo, sed maximus sem ullamcorper non. Maecenas eu ullamcorper ipsum.
+        in coding and designing, and I found front-end engineering is where the two meet. The
+        creative side of my mindset will have the layout for websites while the logical side will
+        implement my designs. When coding and desining are combined, there will be endless possibilities.
+
       </p>
+
 
     <a href="#contact" className='btn btn-primary'>Contact Me</a>
     </div>
